@@ -1,0 +1,32 @@
+import * as React from "react";
+import * as Types from "./types";
+
+declare function CoverletterCreate(props: {
+  as?: React.ElementType;
+  slotForm?: Types.Devlink.Slot;
+  onClickRewrite?: Types.Devlink.RuntimeProps;
+  isDownloadable?: Types.Visibility.VisibilityConditions;
+  onClickDownload?: Types.Devlink.RuntimeProps;
+  onClickImproveWriting?: Types.Devlink.RuntimeProps;
+  onClickMakeShorter?: Types.Devlink.RuntimeProps;
+  onClickMakeLonger?: Types.Devlink.RuntimeProps;
+  onClickSimplifyLanguage?: Types.Devlink.RuntimeProps;
+  onClickProfessional?: Types.Devlink.RuntimeProps;
+  onClickCasual?: Types.Devlink.RuntimeProps;
+  onClickStraightForward?: Types.Devlink.RuntimeProps;
+  onClickConfident?: Types.Devlink.RuntimeProps;
+  onClickFriendly?: Types.Devlink.RuntimeProps;
+  tone?: React.ReactNode;
+  onClickCopy?: Types.Devlink.RuntimeProps;
+  slotEditor?: Types.Devlink.Slot;
+  isUndoActive?: Types.Visibility.VisibilityConditions;
+  isRedoActive?: Types.Visibility.VisibilityConditions;
+  onClickUndo?: Types.Devlink.RuntimeProps;
+  onClickRedo?: Types.Devlink.RuntimeProps;
+  isLoading?: Types.Visibility.VisibilityConditions;
+  isRewrite?: Types.Visibility.VisibilityConditions;
+  onClickDraft?: Types.Devlink.RuntimeProps;
+  isCopyButton?: Types.Visibility.VisibilityConditions;
+  slotTones?: Types.Devlink.Slot;
+  isTonePills?: Types.Visibility.VisibilityConditions;
+}): React.JSX.Element;

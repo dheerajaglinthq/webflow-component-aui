@@ -1,0 +1,30 @@
+.custom-dropdown {
+  position: relative;
+  z-index: 4;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  .hide {
+    display: none;
+  }
+}
+
+.paste-your-items {
+  padding: 24px;
+  background-color: var(--grey300-03a46dba);
+}
+
+.custom-dropdown-list {
+  position: absolute;
+  left: auto;
+  top: 52px;
+  right: 0%;
+  bottom: auto;
+
+  overflow: hidden;
+}

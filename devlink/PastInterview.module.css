@@ -1,0 +1,122 @@
+.past-interview {
+  display: flex;
+  padding: 12px;
+  justify-content: space-between;
+  align-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+
+  border-radius: 8px;
+
+  background-color: var(--bgGrey100-ce47127d);
+
+  cursor: pointer;
+}
+
+.past-interview:hover {
+  background-color: var(--bgGrey200-4f66792c);
+}
+
+.past-interview.skeleton {
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+.past-interview.skeleton:hover {
+  background-color: var(--bgGrey100-ce47127d);
+}
+
+.past-interview-wrap {
+  display: flex;
+  flex-direction: column;
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+}
+
+.text-lg-bold {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+}
+
+.text-lg-bold.align-lext {
+  align-self: center;
+}
+
+.text-grey-600 {
+  color: hsla(208.57142857142856, 9.17%, 44.90%, 1.00);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-lg-bold.weight-500 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.div-block-4 {
+  display: flex;
+}
+
+.div-block-5 {
+  display: flex;
+  align-items: center;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+
+.interview-compant-icon {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.text-md-bold {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: -0.15px;
+}
+
+.text-md-bold.color-red-500 {
+  color: hsla(354.93506493506493, 66.96%, 54.90%, 1.00);
+}
+
+.text-md-bold.color-black {
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+}
+
+.text-md-bold.color-grey-600 {
+  text-decoration: none;
+}
+
+.color-grey-600 {
+  color: var(--grey600-d5bebe21);
+}
+
+.interview-badge-wrap {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.interview-status-badge {
+  padding: 2px 8px;
+  border-radius: 100px;
+  background-color: var(--yellow200-baad9d26);
+  text-align: center;
+}
+
+.interview-status-badge.complete {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+
+  background-color: var(--green300-027c1f43);
+}

@@ -1,0 +1,77 @@
+.salary-accordion {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--grey200-9ba653f1);
+  border-radius: 8px;
+  background-color: white;
+}
+
+.accordion-header {
+  display: flex;
+  padding: 16px 16px 8px;
+  justify-content: space-between;
+  align-items: center;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+
+  cursor: pointer;
+}
+
+.text-lg-bold {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+}
+
+.text-lg-bold.align-lext {
+  align-self: center;
+}
+
+.text-grey-600 {
+  color: hsla(208.57142857142856, 9.17%, 44.90%, 1.00);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-lg-bold.weight-500 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.accordion-icon {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+
+  border-radius: 50%;
+
+  background-color: var(--white-80449ce7);
+}
+
+.icon-medium {
+  width: 24px;
+  height: 24px;
+}
+
+.accordion-content {
+  display: flex;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-right: 16px;
+  margin-left: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+}
+
+.accordion-content.loading {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}

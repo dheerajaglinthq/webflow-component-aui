@@ -1,0 +1,26 @@
+.stack-column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.stack-column.padding-horizontal {
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+.stack-column.hide {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  .hide {
+    display: none;
+  }
+}

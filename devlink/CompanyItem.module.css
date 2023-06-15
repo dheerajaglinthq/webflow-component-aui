@@ -1,0 +1,106 @@
+.company-item {
+  position: relative;
+
+  display: grid;
+  overflow: hidden;
+  padding: 10px;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: auto;
+
+  border-radius: 10px;
+
+  background-color: var(--gray100-3a86b552);
+
+  transition: all 200ms ease;
+
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .company-item {
+    max-width: none;
+  }
+}
+
+.company-item:hover {
+  background-color: var(--grey200-9ba653f1);
+}
+
+.company-item.add-company {
+  height: 56px;
+}
+
+.company-image-wrap {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  overflow: hidden;
+  width: 36px;
+  height: 36px;
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+
+  background-color: white;
+}
+
+.company-details {
+  position: relative;
+  z-index: 2;
+}
+
+.company-name {
+  font-family: 'DM Sans';
+  font-weight: 700;
+}
+
+.designation-title {
+  font-family: 'DM Sans';
+  color: hsla(205.26315789473685, 11.52%, 32.35%, 1.00);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.card-actions {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+}
+
+.on-active {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+
+  background-color: var(--green100-8db28f70);
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  .hide {
+    display: none;
+  }
+}
+
+#w-node-d8cf4964-a942-6ab2-0b67-bd346f350e50-6f350e50 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}

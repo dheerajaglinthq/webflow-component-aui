@@ -1,0 +1,179 @@
+.profile-card {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: space-between;
+  align-items: center;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+
+  border: 1px solid var(--borderGrey-ea561a79);
+  border-radius: 4px;
+}
+
+.profile-card-content-wrap {
+  display: flex;
+  flex-direction: column;
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+}
+
+.text-md-bold {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: -0.15px;
+}
+
+.text-md-bold.color-red-500 {
+  color: hsla(354.93506493506493, 66.96%, 54.90%, 1.00);
+}
+
+.text-md-bold.color-black {
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+}
+
+.text-md-bold.color-grey-600 {
+  text-decoration: none;
+}
+
+.color-grey-600 {
+  color: var(--grey600-d5bebe21);
+}
+
+.text-md {
+  font-family: 'DM Sans';
+  color: var(--grey800-e42b2e06);
+  font-size: 14px;
+  line-height: 1.4285714285714286;
+  letter-spacing: 0.4px;
+}
+
+.text-color-grey {
+  color: var(--textLightGrey-914158a7);
+}
+
+.text-md.text-color-grey.more-grey {
+  color: var(--grey600-d5bebe21);
+}
+
+.text-color-dark-grey {
+  color: var(--textDarkGrey-65de823a);
+}
+
+.text-md.color-grey-600 {
+  color: var(--grey600-d5bebe21);
+}
+
+.icon-buttons-wrap-copy {
+  position: relative;
+
+  display: flex;
+  width: 74px;
+  justify-content: flex-end;
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.iconbutton-copy {
+  position: absolute;
+  left: 6px;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+
+  border-radius: 50%;
+
+  color: var(--grey800-e42b2e06);
+
+  cursor: pointer;
+}
+
+.iconbutton-copy.added:hover {
+  background-color: transparent;
+}
+
+.iconbutton-copy.heart {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+
+.iconbutton-copy.added-copyabsolute {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+
+  background-color: white;
+}
+
+.iconbutton-copy.added-copyabsolute:hover {
+  background-color: transparent;
+}
+
+.iconbtn-icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconbtn-icon.tick {
+  color: var(--green500-287ff474);
+}
+
+.icon-buttons {
+  position: relative;
+}
+
+.iconbutton {
+  display: flex;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+
+  border-radius: 50%;
+
+  color: var(--grey800-e42b2e06);
+
+  cursor: pointer;
+}
+
+.iconbutton.added:hover {
+  background-color: transparent;
+}
+
+.iconbutton.heart {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+
+.iconbutton.added-copyabsolute {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+
+  background-color: white;
+}
+
+.iconbutton.fixed-hight {
+  width: 28px;
+  height: 28px;
+}
+
+.iconbutton.fixed-hight:hover {
+  background-color: var(--gray100-3a86b552);
+}

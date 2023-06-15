@@ -1,0 +1,114 @@
+.page-nothing {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.page-nothing-wrapper {
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 263px;
+}
+
+.page-nothing-grid {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 60px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.page-nothing-title-wrapper {
+  margin-bottom: 24px;
+}
+
+.text-xxxl-default {
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.4px;
+}
+
+.text-xxxl-default.color-red-800 {
+  color: hsla(355.1162790697674, 70.49%, 23.92%, 1.00);
+}
+
+.text-lg-default {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.45px;
+}
+
+.text-lg-default.color-blue-800 {
+  color: var(--blue800-09c1dfbf);
+}
+
+.text-lg-default.color-kale-800 {
+  color: var(--kale800-682c1482);
+}
+
+.text-lg-default.color-grey-800 {
+  color: var(--grey800-e42b2e06);
+}
+
+.page-nothing-description {
+  margin-bottom: 42px;
+}
+
+.text-md-default {
+  letter-spacing: -0.15px;
+}
+
+.color-grey-600 {
+  color: var(--grey600-d5bebe21);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-md-default.color-grey-600.text-align-left {
+  text-align: left;
+}
+
+.text-md-default.color-grey-600.maxwidth {
+  max-width: 340px;
+}
+
+.text-md-default.color-grey-700 {
+  color: var(--grey700-7fbe857b);
+}
+
+.text-color-grey {
+  color: var(--textLightGrey-914158a7);
+}
+
+.text-color-dark-grey {
+  color: var(--textDarkGrey-65de823a);
+}
+
+.support-wrapper {
+  display: flex;
+  grid-column-gap: 4px;
+}
+
+.tools-link {
+  color: hsla(206.95652173913044, 57.50%, 47.06%, 1.00);
+}
+
+#w-node-_9156ee65-d182-5bab-9f23-32cd2a3a86ae-2a3a86ab {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-_9156ee65-d182-5bab-9f23-32cd2a3a86b0-2a3a86ab {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}

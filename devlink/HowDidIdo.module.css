@@ -1,0 +1,140 @@
+.interview-btns {
+  position: relative;
+}
+
+.button-interview {
+  display: flex;
+  padding: 6px 10px;
+  justify-content: center;
+  align-items: center;
+  flex: 0 auto;
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+
+  border-radius: 4px;
+
+  background-color: rgba(47, 57, 65, 0.5);
+}
+
+.button-interview.cancel-interview {
+  transition: all 200ms ease;
+  color: white;
+  cursor: pointer;
+}
+
+.button-interview.cancel-interview:hover {
+  background-color: white;
+  color: var(--grey700-7fbe857b);
+}
+
+.button-interview.cancel-interview.is-disabled-btn {
+  position: relative;
+  color: var(--grey500-0d508ad8);
+  cursor: auto;
+}
+
+.button-interview.cancel-interview.is-disabled-btn:hover {
+  background-color: hsla(206.66666666666666, 16.07%, 21.96%, 0.50);
+}
+
+.button-interview.cancel-interview-copy {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+
+  display: flex;
+
+  transition: all 200ms ease;
+
+  color: white;
+
+  cursor: pointer;
+}
+
+.button-interview.cancel-interview-copy:hover {
+  background-color: white;
+  color: var(--grey700-7fbe857b);
+}
+
+.button-interview.cancel-interview-copy.is-disabled-btn {
+  position: relative;
+  height: 32px;
+  color: var(--grey500-0d508ad8);
+  cursor: auto;
+}
+
+.button-interview.cancel-interview-copy.is-disabled-btn:hover {
+  background-color: hsla(206.66666666666666, 16.07%, 21.96%, 0.50);
+}
+
+.embed-flex {
+  display: flex;
+}
+
+.embed-flex.ontop {
+  position: relative;
+  z-index: 2;
+  margin-top: 2px;
+}
+
+.embed-flex.ontop.disabledo {
+  opacity: 0.76;
+}
+
+.embed-flex.align-top {
+  margin-top: 4px;
+}
+
+.info-interview {
+  position: absolute;
+  left: 0px;
+  top: -34px;
+  right: auto;
+  bottom: auto;
+
+  display: none;
+  width: 390.0390625px;
+  padding: 4px 10px;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 0 auto;
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+
+  border-radius: 4px;
+
+  background-color: rgba(47, 57, 65, 0.5);
+}
+
+.vectors-wrapper-7 {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  object-fit: cover;
+}
+
+.medium-default-8 {
+  color: rgba(248, 249, 249, 1);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: -0.15399999916553497px;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  .hide {
+    display: none;
+  }
+}

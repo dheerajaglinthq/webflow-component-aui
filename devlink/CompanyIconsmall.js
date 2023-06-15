@@ -1,0 +1,12 @@
+import React from "react";
+import * as _Builtin from "./_Builtin";
+import * as _utils from "./utils";
+import _styles from "./CompanyIconsmall.module.css";
+
+export function CompanyIconsmall({ as: _Component = _Builtin.Block }) {
+  return (
+    <_Component className={_utils.cx(_styles, "company-icon-16")} tag="div">
+      <_Builtin.HtmlEmbed value="%3Csvg%20width%3D%2225%22%20height%3D%2226%22%20viewBox%3D%220%200%2025%2026%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M20.28%200.519989H4.68C3.822%200.519989%203.12%201.22199%203.12%202.07999V23.92C3.12%2024.778%203.822%2025.48%204.68%2025.48H8.58C9.0168%2025.48%209.36%2025.1368%209.36%2024.7V18.46C9.36%2018.0232%209.7032%2017.68%2010.14%2017.68H14.82C15.2568%2017.68%2015.6%2018.0232%2015.6%2018.46V24.7C15.6%2025.1368%2015.9432%2025.48%2016.38%2025.48H20.28C21.138%2025.48%2021.84%2024.778%2021.84%2023.92V2.07999C21.84%201.22199%2021.138%200.519989%2020.28%200.519989ZM10.92%2014.56H7.8V11.44H10.92V14.56ZM10.92%208.31999H7.8V5.19999H10.92V8.31999ZM17.16%2014.56H14.04V11.44H17.16V14.56ZM17.16%208.31999H14.04V5.19999H17.16V8.31999Z%22%20fill%3D%22%2368737D%22%2F%3E%0A%3C%2Fsvg%3E" />
+    </_Component>
+  );
+}

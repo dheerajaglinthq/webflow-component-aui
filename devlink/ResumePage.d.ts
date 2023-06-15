@@ -1,0 +1,12 @@
+import * as React from "react";
+import * as Types from "./types";
+
+declare function ResumePage(props: {
+  as?: React.ElementType;
+  showResume?: Types.Visibility.VisibilityConditions;
+  onClickCreate?: Types.Devlink.RuntimeProps;
+  onClickLinkedin?: Types.Devlink.RuntimeProps;
+  onClickUpload?: Types.Devlink.RuntimeProps;
+  slotResumecard?: Types.Devlink.Slot;
+  isLoading?: Types.Visibility.VisibilityConditions;
+}): React.JSX.Element;

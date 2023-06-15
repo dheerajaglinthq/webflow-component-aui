@@ -1,0 +1,86 @@
+.ai-generated-salary {
+  position: relative;
+
+  display: flex;
+  min-height: 80px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 1px solid var(--grey200-9ba653f1);
+  border-radius: 8px;
+
+  background-color: var(--bgGrey100-ce47127d);
+}
+
+.text-md-skeleton {
+  font-family: 'Flow Circular';
+  color: var(--skeletonGrey-4e9a134f);
+  font-size: 22px;
+  line-height: 1;
+}
+
+.text-md-skeleton.text-color-dark-grey {
+  color: var(--textDarkGrey-65de823a);
+}
+
+.text-color-dark-grey {
+  color: var(--textDarkGrey-65de823a);
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  .hide {
+    display: none;
+  }
+}
+
+.text-md-default {
+  letter-spacing: -0.15px;
+}
+
+.color-grey-600 {
+  color: var(--grey600-d5bebe21);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-md-default.color-grey-600.text-align-left {
+  text-align: left;
+}
+
+.text-md-default.color-grey-600.maxwidth {
+  max-width: 340px;
+}
+
+.text-md-default.color-grey-700 {
+  color: var(--grey700-7fbe857b);
+}
+
+.text-color-grey {
+  color: var(--textLightGrey-914158a7);
+}
+
+.loader-absolute {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 2;
+
+  border-radius: 8px;
+
+  background-color: white;
+}
+
+.loader-absolute.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

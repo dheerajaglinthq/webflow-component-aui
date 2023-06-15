@@ -1,0 +1,72 @@
+.open-try-two {
+  position: fixed;
+  left: auto;
+  top: auto;
+  right: 20px;
+  bottom: 20px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.try-half {
+  display: flex;
+  overflow: hidden;
+  align-items: stretch;
+  border-radius: 4px;
+}
+
+.try-top-link-wrap {
+  display: flex;
+  overflow: hidden;
+  padding: 10px 16px 10px 10px;
+  justify-content: flex-end;
+  align-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+
+  border-radius: 4px;
+
+  background-color: hsla(0, 0.00%, 0.00%, 1.00);
+
+  color: hsla(0, 0.00%, 100.00%, 1.00);
+}
+
+.menu-wrapper {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+
+  background-color: hsla(0, 0.00%, 0.00%, 1.00);
+
+  color: hsla(0, 0.00%, 100.00%, 1.00);
+
+  cursor: pointer;
+}
+
+.embed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-float-nav {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

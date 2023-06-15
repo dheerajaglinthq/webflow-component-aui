@@ -1,0 +1,138 @@
+.terms-modal-wrapper {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 100;
+
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.terms-container {
+  position: relative;
+  z-index: 44;
+
+  max-width: 560px;
+  padding: 16px 20px;
+
+  border-radius: 8px;
+
+  background-color: hsla(206.66666666666666, 0.00%, 100.00%, 1.00);
+}
+
+.text-md-bold {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: -0.15px;
+}
+
+.text-md-bold.color-red-500 {
+  color: hsla(354.93506493506493, 66.96%, 54.90%, 1.00);
+}
+
+.text-md-bold.color-black {
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+}
+
+.text-md-bold.color-grey-600 {
+  text-decoration: none;
+}
+
+.color-grey-600 {
+  color: var(--grey600-d5bebe21);
+}
+
+.terms-rich-text-wrapper {
+  overflow: auto;
+  max-height: 440px;
+  margin-bottom: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.terms-rich-text {
+  color: hsla(208.57142857142856, 9.17%, 44.90%, 1.00);
+}
+
+.primary-button {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+  border-radius: 4px;
+
+  background-color: var(--blue600-aad8d97e);
+
+  transition: all 200ms ease;
+
+  color: white;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: var(--blue700-c1b26211);
+}
+
+.primary-button.is-disabled {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 2;
+
+  background-color: var(--grey500-0d508ad8);
+
+  cursor: not-allowed;
+}
+
+@media screen and (min-width: 1440px) {
+  .primary-button.is-disabled {
+    z-index: 2;
+    cursor: not-allowed;
+  }
+}
+
+.primary-button.small {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.primary-button.book-a-call-btn {
+  position: absolute;
+  left: auto;
+  top: 34px;
+  right: 10px;
+  bottom: auto;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  border: 1px solid var(--grey200-9ba653f1);
+
+  background-color: white;
+
+  color: var(--grey800-e42b2e06);
+}
+
+.overlay-black {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+
+  background-color: hsla(206.66666666666666, 16.07%, 21.96%, 0.50);
+}

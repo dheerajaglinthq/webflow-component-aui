@@ -1,0 +1,10 @@
+.salary-info-content {
+  display: flex;
+  justify-content: space-between;
+  color: var(--textLightGrey-914158a7);
+}
+
+.salary-info-content.loading {
+  font-family: 'Flow Circular';
+  font-size: 16px;
+}

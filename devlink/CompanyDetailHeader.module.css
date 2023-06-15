@@ -1,0 +1,150 @@
+.company-details-job-page {
+  display: flex;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.job-avatar-skeleton {
+  position: relative;
+
+  display: flex;
+  width: 80px;
+  height: 80px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid var(--skeletonGrey-4e9a134f);
+  border-radius: 4px;
+
+  background-color: var(--skeletonGrey-4e9a134f);
+}
+
+.avatar-text {
+  font-size: 48px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.avatar-image {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+
+  width: 72px;
+  height: 72px;
+
+  object-fit: contain;
+}
+
+.job-detail-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.job-detail-row {
+  display: flex;
+  align-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.text-lg-bold {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+}
+
+.text-lg-bold.align-lext {
+  align-self: center;
+}
+
+.text-grey-600 {
+  color: hsla(208.57142857142856, 9.17%, 44.90%, 1.00);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-lg-bold.weight-500 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.badges-stack {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.outlined-badge {
+  padding: 2px 8px;
+  flex: 0 0 auto;
+
+  border: 1px solid var(--grey400-863ed4b5);
+  border-radius: 100px;
+
+  color: var(--grey600-d5bebe21);
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.text-md-default {
+  letter-spacing: -0.15px;
+}
+
+.color-grey-600 {
+  color: var(--grey600-d5bebe21);
+}
+
+.text-md-default.color-grey-600.text-align-left {
+  text-align: left;
+}
+
+.text-md-default.color-grey-600.maxwidth {
+  max-width: 340px;
+}
+
+.text-md-default.color-grey-700 {
+  color: var(--grey700-7fbe857b);
+}
+
+.text-color-grey {
+  color: var(--textLightGrey-914158a7);
+}
+
+.text-color-dark-grey {
+  color: var(--textDarkGrey-65de823a);
+}
+
+.text-sm-default {
+  font-size: 12px;
+  line-height: 1.3333333333333333;
+  letter-spacing: 0px;
+}
+
+.text-sm-default.text-color-grey {
+  color: var(--textLightGrey-914158a7);
+}
+
+.max-width-400 {
+  max-width: 400px;
+}
+
+.job-posted-day {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 12px;
+  line-height: 1.3;
+}

@@ -1,0 +1,105 @@
+.notification-header-wrap {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--borderGrey-ea561a79);
+}
+
+.text-lg-bold {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+}
+
+.text-lg-bold.align-lext {
+  align-self: center;
+}
+
+.text-grey-600 {
+  color: hsla(208.57142857142856, 9.17%, 44.90%, 1.00);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-lg-bold.weight-500 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.text-button {
+  display: flex;
+  padding: 6px 12px;
+  align-items: center;
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+
+  border-radius: 100px;
+
+  color: var(--black-0fdbd865);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.text-button:hover {
+  background-color: var(--gray100-3a86b552);
+}
+
+.text-button.disabled {
+  opacity: 0.6;
+  color: var(--grey600-d5bebe21);
+}
+
+.text-button.disabled:hover {
+  background-color: transparent;
+}
+
+.text-button.active-text-button {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 2;
+}
+
+.notification-empty-state {
+  display: flex;
+  min-height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.text-md {
+  font-family: 'DM Sans';
+  color: var(--grey800-e42b2e06);
+  font-size: 14px;
+  line-height: 1.4285714285714286;
+  letter-spacing: 0.4px;
+}
+
+.text-color-grey {
+  color: var(--textLightGrey-914158a7);
+}
+
+.text-md.text-color-grey.more-grey {
+  color: var(--grey600-d5bebe21);
+}
+
+.text-color-dark-grey {
+  color: var(--textDarkGrey-65de823a);
+}
+
+.text-md.color-grey-600 {
+  color: var(--grey600-d5bebe21);
+}
+
+.color-grey-600 {
+  color: var(--grey600-d5bebe21);
+}

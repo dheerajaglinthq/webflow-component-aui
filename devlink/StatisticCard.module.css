@@ -1,0 +1,28 @@
+.statistic-card {
+  overflow: hidden;
+  border: 1px solid var(--borderGrey-ea561a79);
+  border-radius: 4px;
+}
+
+.statistic-header {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--borderGrey-ea561a79);
+  background-color: var(--grey200-9ba653f1);
+}
+
+.text-lg-bold {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+}
+
+.statistic-content-wrap {
+  overflow: auto;
+  height: 350px;
+  padding: 24px;
+}
+
+.statistic-content {
+  height: 100%;
+}

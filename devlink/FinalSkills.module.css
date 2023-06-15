@@ -1,0 +1,58 @@
+.ai-suggetion-checkbox {
+  position: relative;
+
+  display: flex;
+  overflow: hidden;
+  height: 33.10763931274414px;
+  padding: 6px 10px;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 0 auto;
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+
+  border: 1px solid var(--grey200-9ba653f1);
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.checbox-text {
+  position: relative;
+  z-index: 2;
+
+  color: rgba(47, 57, 65, 1);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: -0.15399999916553497px;
+}
+
+.checkbox-bg {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+
+  background-color: var(--green100-8db28f70);
+}
+
+.embed-flex {
+  display: flex;
+}
+
+.embed-flex.ontop {
+  position: relative;
+  z-index: 2;
+  margin-top: 2px;
+}
+
+.embed-flex.ontop.disabledo {
+  opacity: 0.76;
+}
+
+.embed-flex.align-top {
+  margin-top: 4px;
+}

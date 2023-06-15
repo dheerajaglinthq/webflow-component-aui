@@ -1,0 +1,21 @@
+.expertise {
+  display: flex;
+  padding: 2px 8px;
+  justify-content: center;
+  align-items: center;
+  flex: 0 auto;
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+
+  border-radius: 4px;
+
+  background-color: rgba(206, 226, 242, 1);
+}
+
+.small-default-5 {
+  color: rgba(47, 57, 65, 1);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: -0.00042765619582496583px;
+}

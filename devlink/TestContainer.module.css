@@ -1,0 +1,31 @@
+.test-block {
+  padding: 100px 40px;
+}
+
+.container-1280 {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+  max-width: 1280px;
+  min-height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-1280.vertical {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container-1280.flex-center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container-1280.no-min-height {
+  min-height: auto;
+}

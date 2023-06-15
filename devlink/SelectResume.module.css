@@ -1,0 +1,236 @@
+.container-960 {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.interview-add-company {
+  display: flex;
+  min-height: 100vh;
+  padding-right: 40px;
+  padding-left: 40px;
+  justify-content: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.company-list-wrapper {
+  display: grid;
+  height: 500px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .company-list-wrapper {
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+}
+
+.company-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  grid-row-gap: 46px;
+}
+
+@media screen and (max-width: 767px) {
+  .company-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+}
+
+.resume-list {
+  display: flex;
+  overflow: auto;
+  width: 400px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .resume-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .resume-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.back-continue-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-continue-wrapper.max-width-670 {
+  max-width: 670px;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  grid-column-gap: 8px;
+
+  color: hsla(206.66666666666666, 16.07%, 21.96%, 1.00);
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.back-button.marfin-bottom-40 {
+  margin-bottom: 20px;
+}
+
+.back-button.mrgin-bottom-19 {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.skip {
+  display: flex;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.button-wrapper-next {
+  position: relative;
+}
+
+.disabled-button {
+  padding: 8px 10px;
+  border-radius: 4px;
+  background-color: hsla(204.00000000000003, 8.93%, 78.04%, 1.00);
+  color: hsla(210.00000000000006, 10.09%, 57.25%, 1.00);
+}
+
+.active-button {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+
+  display: block;
+  padding: 8px 10px;
+
+  border-radius: 4px;
+
+  background-color: var(--green600-40a2ee5f);
+
+  color: white;
+
+  cursor: pointer;
+}
+
+.illustration-wrapper {
+  position: relative;
+}
+
+.tooltip-wrapper {
+  position: absolute;
+  left: -100%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+
+  display: flex;
+  max-width: 400px;
+  min-height: 128px;
+  min-width: 400px;
+  padding: 20px;
+  flex-direction: column;
+  grid-row-gap: 10px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(199.9999999999999, 8.33%, 85.88%, 1.00);
+  border-radius: 4px;
+
+  background-color: hsla(180, 0.00%, 100.00%, 1.00);
+
+  box-shadow: 0 20px 28px 0 hsla(187.3972602739726, 90.12%, 15.88%, 0.15);
+}
+
+@media screen and (max-width: 991px) {
+  .tooltip-wrapper {
+    display: none;
+  }
+}
+
+.tooltip-wrapper.not-absolue {
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  min-height: auto;
+}
+
+.tooltip-wrapper.not-absolue._1 {
+  display: flex;
+}
+
+.tooltip-wrapper.not-absolue._2 {
+  display: flex;
+}
+
+.tooltip-wrapper.not-absolue._3 {
+  display: flex;
+}
+
+.tooltip {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: -2%;
+  bottom: 0%;
+
+  display: flex;
+  min-width: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-title {
+  font-family: 'DM Sans';
+  color: hsla(206.66666666666666, 16.07%, 21.96%, 1.00);
+  font-weight: 700;
+}
+
+#w-node-_13ce0bdb-96de-4f75-ba8b-392d6017b195-6017b192 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-_13ce0bdb-96de-4f75-ba8b-392d6017b1a0-6017b192 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+  justify-self: end;
+}
+@media screen and (max-width: 991px) {
+  #w-node-_13ce0bdb-96de-4f75-ba8b-392d6017b1a0-6017b192 {
+    justify-self: stretch;
+    order: -9999;
+  }
+}

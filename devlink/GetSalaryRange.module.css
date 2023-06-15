@@ -1,0 +1,31 @@
+.salary-loading {
+  padding: 30px;
+  border: 1px solid var(--borderGrey-ea561a79);
+  border-radius: 8px;
+  background-color: var(--green200-3c062f81);
+  text-align: center;
+}
+
+.text-lg-bold {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+}
+
+.text-lg-bold.align-lext {
+  align-self: center;
+}
+
+.text-grey-600 {
+  color: hsla(208.57142857142856, 9.17%, 44.90%, 1.00);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-lg-bold.weight-500 {
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,0 +1,169 @@
+.jobs-left-content {
+  display: flex;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  flex-direction: column;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+.header-wrap {
+  display: flex;
+  max-width: 591px;
+  flex-direction: column;
+  grid-column-gap: 12px;
+  grid-row-gap: 8px;
+}
+
+.header-wrap.hide {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  .hide {
+    display: none;
+  }
+}
+
+.text-xxl-bold {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 600;
+  letter-spacing: 0.35px;
+}
+
+.text-md {
+  font-family: 'DM Sans';
+  color: var(--grey800-e42b2e06);
+  font-size: 14px;
+  line-height: 1.4285714285714286;
+  letter-spacing: 0.4px;
+}
+
+.text-color-grey {
+  color: var(--textLightGrey-914158a7);
+}
+
+.text-md.text-color-grey.more-grey {
+  color: var(--grey600-d5bebe21);
+}
+
+.text-color-dark-grey {
+  color: var(--textDarkGrey-65de823a);
+}
+
+.text-md.color-grey-600 {
+  color: var(--grey600-d5bebe21);
+}
+
+.color-grey-600 {
+  color: var(--grey600-d5bebe21);
+}
+
+.filters-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.job-listing-grid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.job-listingcard-skeleton {
+  display: flex;
+  padding: 12px;
+  justify-content: flex-start;
+  align-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+
+  border: 1px solid transparent;
+  border-radius: 8px;
+
+  transition: all 300ms ease;
+
+  cursor: pointer;
+}
+
+.job-avatar-skeleton {
+  position: relative;
+
+  display: flex;
+  width: 80px;
+  height: 80px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid var(--skeletonGrey-4e9a134f);
+  border-radius: 4px;
+
+  background-color: var(--skeletonGrey-4e9a134f);
+}
+
+.recently-viewed-card-content-wrap {
+  display: flex;
+  flex-direction: column;
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+}
+
+.recently-viewed-card-content-wrap.skeleton {
+  flex: 1;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
+.flex-row.align-top {
+  align-items: flex-start;
+}
+
+.text-lg-skeleton {
+  font-family: 'Flow Circular';
+  color: var(--skeletonGrey-4e9a134f);
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.green-badge-skeleton {
+  padding: 2px 8px;
+
+  border-radius: 4px;
+
+  background-color: var(--grey300-03a46dba);
+
+  font-family: 'Flow Circular';
+  color: var(--borderGrey-ea561a79);
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.text-md-skeleton {
+  font-family: 'Flow Circular';
+  color: var(--skeletonGrey-4e9a134f);
+  font-size: 22px;
+  line-height: 1;
+}
+
+.text-md-skeleton.text-color-dark-grey {
+  color: var(--textDarkGrey-65de823a);
+}

@@ -1,0 +1,298 @@
+.container-1280 {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+  max-width: 1280px;
+  min-height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-1280.vertical {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container-1280.flex-center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container-1280.no-min-height {
+  min-height: auto;
+}
+
+.onboarding-wrapper {
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.payment-success {
+  display: flex;
+  overflow: hidden;
+  padding: 20px;
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+  border-radius: 10px;
+
+  background-color: var(--green100-8db28f70);
+}
+
+.embed-flex {
+  display: flex;
+}
+
+.embed-flex.ontop {
+  position: relative;
+  z-index: 2;
+  margin-top: 2px;
+}
+
+.embed-flex.ontop.disabledo {
+  opacity: 0.76;
+}
+
+.embed-flex.align-top {
+  margin-top: 4px;
+}
+
+.text-lg-bold {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+}
+
+.text-lg-bold.align-lext {
+  align-self: center;
+}
+
+.text-grey-600 {
+  color: hsla(208.57142857142856, 9.17%, 44.90%, 1.00);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-lg-bold.weight-500 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.step-1 {
+  position: relative;
+  z-index: 1;
+}
+
+.coach-selection {
+  z-index: 3;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--blue100-d2a1a159);
+}
+
+.coach-selection-header {
+  display: flex;
+  align-items: flex-start;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+}
+
+.cards-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.cards-wrapper.after-selection {
+  flex-direction: row;
+}
+
+.header-text {
+  display: flex;
+  max-width: 600px;
+  flex-direction: column;
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+}
+
+.text-xl-bold {
+  font-size: 22px;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.text-lg {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.45px;
+}
+
+.coach-cards-slot {
+  display: flex;
+  width: 100%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.button-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.green-button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: var(--green600-40a2ee5f);
+  color: white;
+  cursor: pointer;
+}
+
+.green-button.is-disabled {
+  position: absolute;
+  background-color: var(--grey400-863ed4b5);
+  cursor: not-allowed;
+}
+
+.green-button.with-border {
+  border: 1px solid var(--green600-40a2ee5f);
+  background-color: transparent;
+  color: var(--green600-40a2ee5f);
+}
+
+.coach-selected-step {
+  z-index: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--green100-8db28f70);
+}
+
+.coach-image {
+  position: relative;
+  z-index: 2;
+
+  overflow: hidden;
+  width: 180px;
+  height: 180px;
+  padding: 4px;
+
+  border-radius: 8px;
+
+  background-color: white;
+}
+
+.cover-image {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cover-image.whith-border-8 {
+  border-radius: 8px;
+}
+
+.coach-buttons-wrap {
+  display: flex;
+  padding-top: 10px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.choose-date {
+  position: relative;
+  min-height: 92px;
+  padding: 0px;
+}
+
+.choose-date-disabled-wrapper {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 3;
+
+  overflow: hidden;
+  height: 92px;
+  padding: 20px;
+
+  border-radius: 10px;
+
+  background-color: var(--gray100-3a86b552);
+}
+
+.choose-date-disabled {
+  position: absolute;
+  z-index: 3;
+
+  display: flex;
+  align-items: flex-start;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.choose-date-activated {
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--blue100-d2a1a159);
+}
+
+.coach-date-pick {
+  display: flex;
+  margin-top: 40px;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+.coach-details {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 9999;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-card {
+  position: relative;
+  z-index: 2;
+
+  overflow: auto;
+  width: 600px;
+  height: 700px;
+
+  background-color: white;
+}
+
+.popup-overlay {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+
+  background-color: var(--grey800-e42b2e06);
+
+  opacity: 0.5;
+}

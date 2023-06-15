@@ -1,0 +1,30 @@
+.test-visibility {
+  display: grid;
+  height: 300px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.blue {
+  background-color: var(--blue500-72579298);
+}
+
+.green {
+  background-color: var(--green500-287ff474);
+}
+
+#w-node-b782fcce-e12c-7319-ba26-1a3364993251-64993250 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-b782fcce-e12c-7319-ba26-1a3364993252-64993250 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}

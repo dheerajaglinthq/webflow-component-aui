@@ -1,0 +1,80 @@
+.notification-cards {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.notification-card-tittle-wrapper {
+  display: flex;
+  margin-bottom: 4px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification-card-left-title {
+  display: flex;
+  align-items: center;
+  grid-column-gap: 12px;
+}
+
+.html-embed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-sm-bold {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0px;
+}
+
+.text-sm-bold.margin-top-2 {
+  margin-top: 2px;
+}
+
+.text-sm-bold.margin-top-2.text-is-white {
+  color: white;
+}
+
+.close-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsla(208.57142857142856, 9.17%, 44.90%, 1.00);
+}
+
+.div-block-15 {
+  text-align: left;
+}
+
+.text-sm-default {
+  font-size: 12px;
+  line-height: 1.3333333333333333;
+  letter-spacing: 0px;
+}
+
+.color-grey-600 {
+  color: var(--grey600-d5bebe21);
+}
+
+.text-sm-default.text-color-grey {
+  color: var(--textLightGrey-914158a7);
+}
+
+.text-color-grey {
+  color: var(--textLightGrey-914158a7);
+}
+
+.max-width-400 {
+  max-width: 400px;
+}
+
+.div-block-3 {
+  display: flex;
+  margin-top: 8px;
+  justify-content: flex-end;
+}

@@ -1,0 +1,18 @@
+.dashboard-left-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+}
+
+.dash-heading-wrapper {
+  display: flex;
+  align-items: center;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+
+.dashboard-heading-lead {
+  color: var(--grey600-d5bebe21);
+  font-weight: 500;
+}

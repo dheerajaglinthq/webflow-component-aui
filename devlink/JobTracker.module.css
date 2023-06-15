@@ -1,0 +1,23 @@
+.job-tracker {
+  position: relative;
+}
+
+.jt-loading {
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jt-empty {
+  z-index: 2;
+}
+
+.jt-initial {
+  z-index: 1;
+}
+
+.jt-main {
+  width: 100%;
+  height: 100%;
+}

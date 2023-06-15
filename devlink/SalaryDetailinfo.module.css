@@ -1,0 +1,43 @@
+.salary-info-wrap {
+  overflow: hidden;
+  min-width: 250px;
+  margin-bottom: 10px;
+  flex: 0 0 auto;
+
+  border: 1px solid var(--grey500-0d508ad8);
+  border-radius: 8px;
+}
+
+.salary-info-header {
+  display: flex;
+  padding: 6px 10px;
+  justify-content: space-between;
+  align-items: center;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+
+  background-color: var(--black-0fdbd865);
+
+  color: var(--white-80449ce7);
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.salary-info {
+  display: flex;
+  padding: 8px 10px 10px;
+  flex-direction: column;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+
+.salary-info-content {
+  display: flex;
+  justify-content: space-between;
+  color: var(--textLightGrey-914158a7);
+}
+
+.salary-info-content.loading {
+  font-family: 'Flow Circular';
+  font-size: 16px;
+}

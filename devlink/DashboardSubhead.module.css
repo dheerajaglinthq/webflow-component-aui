@@ -1,0 +1,14 @@
+.dashboard-subhead-wrapper {
+  display: flex;
+  margin-bottom: 12px;
+  padding-right: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+
+.dashboard-heading-lead {
+  color: var(--grey600-d5bebe21);
+  font-weight: 500;
+}
